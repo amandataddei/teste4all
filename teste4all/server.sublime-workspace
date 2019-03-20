@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"p",
+				"p\tTag"
+			]
 		]
 	},
 	"buffers":
@@ -11,25 +15,50 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 950,
+				"buffer_size": 909,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/eventos/editar.blade.php",
-			"settings":
-			{
-				"buffer_size": 317,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/Http/Controllers/EventoController.php",
 			"settings":
 			{
-				"buffer_size": 551,
+				"buffer_size": 748,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Controller.php",
+			"settings":
+			{
+				"buffer_size": 361,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/eventos/verificanotificacao.blade.php",
+			"settings":
+			{
+				"buffer_size": 595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 2918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2019_03_14_210109_create_detalheeventos_table.php",
+			"settings":
+			{
+				"buffer_size": 2725,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -38,17 +67,63 @@
 			"file": "database/migrations/2019_03_09_190514_create_eventos_table.php",
 			"settings":
 			{
-				"buffer_size": 950,
+				"buffer_size": 2546,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "database/migrations/2019_03_08_025309_create_contatos_table.php",
+			"file": "database/seeds/DetalheEventoSeeder.php",
 			"settings":
 			{
-				"buffer_size": 704,
+				"buffer_size": 2888,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/DetalheEvento.php",
+			"settings":
+			{
+				"buffer_size": 281,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/data/detalheevento.json",
+			"settings":
+			{
+				"buffer_size": 3129,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/DetalheEventoController.php",
+			"settings":
+			{
+				"buffer_size": 567,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/eventos/editar.blade.php",
+			"settings":
+			{
+				"buffer_size": 885,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/eventos/notification.blade.php",
+			"settings":
+			{
+				"buffer_size": 327,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -63,7 +138,7 @@
 			"file": "database/data/eventos.json",
 			"settings":
 			{
-				"buffer_size": 727,
+				"buffer_size": 5270,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -72,19 +147,52 @@
 			"file": "resources/views/eventos/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 1185,
+				"buffer_size": 1018,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<?php\n\nnamespace App;\n\nuse Illuminate\\Database\\Eloquent\\Model;\n\nclass Evento extends Model\n\n{\n   use Notifiable;\n\n    /**\n     * The attributes that are mass assignable.\n     *\n     * @var array\n     */\n    protected $fillable = [\n        'id', 'email', 'first_name','last_name','password',\n    ];\n\n   \n}\n\n\n",
-			"file": "app/Evento.php",
-			"file_size": 306,
-			"file_write_time": 131967352882588575,
+			"file": "resources/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 307,
+				"buffer_size": 411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/eventos/visualizar.blade.php",
+			"settings":
+			{
+				"buffer_size": 885,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@extends ('layout.site')\n\n@section ('titulo','teste')\n\n@section ('conteudo')\n\n    <h1>Teste view index</h1>\n\n\n    @foreach ($contatos as $contato)\n\n\n        <p>{{ $contato['nome'] }}</p>\n\n        <p>{{ $contato['tel'] }}</p>\n\n\n    @endforeach\n\n@endsection\n\n\n\n\n\n\n\n",
+			"file": "resources/views/contato/index.blade.php",
+			"file_size": 290,
+			"file_write_time": 131966376760000000,
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/web.config",
+			"settings":
+			{
+				"buffer_size": 914,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Evento.php",
+			"settings":
+			{
+				"buffer_size": 300,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -93,7 +201,7 @@
 			"file": "database/seeds/EventosSeeder.php",
 			"settings":
 			{
-				"buffer_size": 711,
+				"buffer_size": 2545,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -119,7 +227,7 @@
 			"file": "database/seeds/DatabaseSeeder.php",
 			"settings":
 			{
-				"buffer_size": 233,
+				"buffer_size": 278,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -129,25 +237,16 @@
 			"settings":
 			{
 				"buffer_size": 511,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Contato.php",
-			"settings":
-			{
-				"buffer_size": 214,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "  <!DOCTYPE html>\n  <html>\n    <head>\n\n      <title>@yield('titulo')</title>\t\n\n     \n    </head>\n\n    <body>\n    \t\n    \t@yield('conteudo') \t    \t\n\n\n    </body>\n  </html>",
 			"file": "resources/views/layout/site.blade.php",
-			"file_size": 182,
-			"file_write_time": 131966413312489879,
 			"settings":
 			{
-				"buffer_size": 169,
+				"buffer_size": 943,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -188,32 +287,36 @@
 		"/C/teste laravel/teste4all/app",
 		"/C/teste laravel/teste4all/app/Http",
 		"/C/teste laravel/teste4all/app/Http/Controllers",
-		"/C/teste laravel/teste4all/app/Http/Middleware",
 		"/C/teste laravel/teste4all/database",
 		"/C/teste laravel/teste4all/database/data",
-		"/C/teste laravel/teste4all/database/factories",
 		"/C/teste laravel/teste4all/database/migrations",
 		"/C/teste laravel/teste4all/database/seeds",
 		"/C/teste laravel/teste4all/resources",
 		"/C/teste laravel/teste4all/resources/views",
-		"/C/teste laravel/teste4all/resources/views/contato",
-		"/C/teste laravel/teste4all/resources/views/errors",
 		"/C/teste laravel/teste4all/resources/views/eventos",
+		"/C/teste laravel/teste4all/resources/views/layout",
+		"/C/teste laravel/teste4all/resources/views/layouts",
+		"/C/teste laravel/teste4all/resources/views/vendor",
 		"/C/teste laravel/teste4all/routes"
 	],
 	"file_history":
 	[
-		"/C/teste laravel/teste4all/database/data/eventos",
+		"/C/teste laravel/teste4all/app/Http/Controllers/ContatoController.php",
+		"/C/teste laravel/teste4all/app/Contato.php",
+		"/C/Users/hp/Downloads/teste4all (1)/teste4all/database/migrations/2019_03_14_210109_create_detalheeventos_table.php",
+		"/C/teste laravel/teste4all/database/migrations/2019_03_09_190514_create_eventos_table.php",
+		"/C/teste laravel/teste4all/resources/views/eventos/editar.blade.php",
+		"/C/teste laravel/teste4all/resources/views/welcome.blade.php",
+		"/C/teste laravel/teste4all/routes/console.php",
+		"/C/teste laravel/teste4all/eventos.html",
 		"/C/teste laravel/teste4all/database/migrations/2019_03_08_025309_create_contatos_table.php",
+		"/C/teste laravel/teste4all/database/data/eventos",
 		"/C/teste laravel/teste4all/database/migrations/2019_03_10_201403_create_eventos.php",
 		"/C/teste laravel/teste4all/database/data/eventos.json",
 		"/C/teste laravel/teste4all/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/C/teste laravel/teste4all/database/seeds/DatabaseSeeder.php",
 		"/C/teste laravel/teste4all/database/migrations/2014_10_12_100000_create_password_resets_table.php",
 		"/C/teste laravel/teste4all/database/eventos.json",
-		"/C/teste laravel/teste4all/resources/views/welcome.blade.php",
-		"/C/teste laravel/teste4all/app/Http/Controllers/ContatoController.php",
-		"/C/teste laravel/teste4all/app/Contato.php",
 		"/C/teste laravel/teste4all/app/Evento.php",
 		"/C/teste laravel/teste4all/app/Http/Controllers/EventoController.php",
 		"/C/teste laravel/teste4all/app/Http/Controllers/Controller.php",
@@ -266,7 +369,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 11,
 			"sheets":
 			[
 				{
@@ -275,15 +378,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 950,
+						"buffer_size": 909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								0,
+								0
 							]
 						],
 						"settings":
@@ -294,24 +397,54 @@
 						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/eventos/editar.blade.php",
+					"file": "app/Http/Controllers/EventoController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								259,
-								259
+								706,
+								725
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/Controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -322,90 +455,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/EventoController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 551,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "database/migrations/2019_03_09_190514_create_eventos_table.php",
+					"file": "resources/views/eventos/verificanotificacao.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 950,
+						"buffer_size": 595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								935,
-								935
+								0,
+								595
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "database/migrations/2019_03_08_025309_create_contatos_table.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 704,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								695,
-								662
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -416,12 +489,42 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "database/migrations/2014_10_12_100000_create_password_resets_table.php",
+					"buffer": 4,
+					"file": "resources/views/welcome.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 684,
+						"buffer_size": 2918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								670
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "database/migrations/2019_03_14_210109_create_detalheeventos_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2725,
 						"regions":
 						{
 						},
@@ -439,6 +542,150 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "database/migrations/2019_03_09_190514_create_eventos_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "database/seeds/DetalheEventoSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 155.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/DetalheEvento.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "database/data/detalheevento.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/Http/Controllers/DetalheEventoController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -446,20 +693,108 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "database/data/eventos.json",
+					"buffer": 11,
+					"file": "resources/views/eventos/editar.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 727,
+						"buffer_size": 885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								824,
+								824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 558.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/views/eventos/notification.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "database/migrations/2014_10_12_100000_create_password_resets_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "database/data/eventos.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -472,24 +807,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 15,
 					"file": "resources/views/eventos/index.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1185,
+						"buffer_size": 1018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1051,
-								1051
+								201,
+								201
 							]
 						],
 						"settings":
@@ -497,32 +832,34 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 23.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/Evento.php",
+					"buffer": 16,
+					"file": "resources/views/home.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 307,
+						"buffer_size": 411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
+								149,
+								149
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -532,20 +869,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "database/seeds/EventosSeeder.php",
+					"buffer": 17,
+					"file": "resources/views/eventos/visualizar.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 711,
+						"buffer_size": 885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395,
-								395
+								758,
+								758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "resources/views/contato/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -556,11 +923,97 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 19,
+					"file": "public/web.config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/Evento.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "database/seeds/EventosSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
 					"file": "database/factories/ModelFactory.php",
 					"semi_transient": false,
 					"settings":
@@ -584,11 +1037,11 @@
 						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 23,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -614,24 +1067,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 24,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 233,
+						"buffer_size": 278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								233,
-								233
+								278,
+								278
 							]
 						],
 						"settings":
@@ -642,46 +1095,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 25,
 					"file": "app/User.php",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 511,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								162,
-								508
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "app/Contato.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 214,
 						"regions":
 						{
 						},
@@ -694,30 +1117,32 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 26,
 					"file": "resources/views/layout/site.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 943,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								739,
+								739
 							]
 						],
 						"settings":
@@ -725,10 +1150,10 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -811,7 +1236,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 358.0,
+	"side_bar_width": 385.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
