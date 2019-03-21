@@ -12,16 +12,12 @@
 */
 
 
-Route::get('/', 'EventoController@index'); 
+Route::get('/', 'EventoController@index');
 
-Route::get('/eventos',['uses'=>'EventoController@index']);
+Route::get('/eventos/visualizar/{evento_id}',['uses'=>'DetalheEventoController@visualizar']);
 
-Route::post('/eventos/salvar',['uses'=>'EventoController@salvar']);
-
-Route::get('/eventos/editar/{id}',['uses'=>'EventoController@editar']);
-
-Route::get('/eventos/atualizar/{id}',['uses'=>'EventoController@atualizar']);
+Route::get('/eventos/editar/{evento_id}',['uses'=>'DetalheEventoController@editar']);
 
 
-
+ 
 
