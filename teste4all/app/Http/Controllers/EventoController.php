@@ -27,4 +27,7 @@ class EventoController extends Controller
     	$registro = Evento::all();
     	return view('eventos.editar',compact('registro'));
     }
+
+    
+
 }
